@@ -30,8 +30,8 @@ html {
 body{
     --color-primary: #000;
     --color-secondary: #fff;
-    --color-bg: #4F2A11;
-    --color-fg: #DCC7BA;
+    --color-bg: #fff;
+    --color-fg: #000;
     --color-text: #222;
 }
 
@@ -59,4 +59,43 @@ p {
 }
 a {
     font-size: 1rem;
+}
+
+/* Header */
+header {
+    background-color: var(--color-bg);
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: stretch;
+    justify-content:space-between;
+}
+header img {
+    width: 5rem;
+}
+header nav ul {
+    height: 100%;
+    background-color: var(--color-fg);
+    padding: 0 5rem;
+    display: flex;
+    align-items: stretch;
+    column-gap: 5rem;
+    justify-content: space-around;
+}
+header nav ul li {
+    background-color: var(--color-bg);
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav a {
+    font-size: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-primary);
+    padding: .75rem;
+}
+header nav a:visited {
+    color: var(--color-primary)
 }
