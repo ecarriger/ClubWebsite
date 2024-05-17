@@ -22,3 +22,41 @@ html {
     max-width: 100%;
     height: auto;
   }
+
+
+/*** Global ***/
+
+/* Colors */
+body{
+    --color-primary: #000;
+    --color-secondary: #fff;
+    --color-bg: #4F2A11;
+    --color-fg: #DCC7BA;
+    --color-text: #222;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.75rem;
+}
+h5 {
+    font-size: 1.5rem;
+}
+h6 {
+    font-size: 1.25rem;
+}
+p {
+    font-size: 1rem;
+}
+a {
+    font-size: 1rem;
+}
