@@ -116,15 +116,15 @@ header nav a:visited {
     background-position: bottom;
     background-size: cover;
     color: white;
-    height: 33rem;
-
+    height: 37rem;
+    text-align: center;
 }
 #home .overlay {
-/*    background: radial-gradient(rgba(255, 255, 255, .0), rgba(255, 255, 255, .1), rgba(255, 255, 255, .8));
- */ 
-    background-color: rgba(255, 255, 255, .3);
-    height: 100%;
-    padding-top: 10rem;
+    background-color: rgba(255, 255, 255, .5);
+    display: inline-block;
+    margin: auto;
+    padding: 4rem 3rem;
+    border-radius: 2rem
 }
 #home h1 {
     color: black;
