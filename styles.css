@@ -121,11 +121,11 @@ header nav a:visited {
     background-size: cover;
     color: white;
     height: 37rem;
-    padding: 10rem;
+    padding: 7rem;
     text-align: center;
 }
 #home .overlay {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .7);
     display: inline-block;
     margin: auto;
     padding: 4rem 3rem;
@@ -137,7 +137,7 @@ header nav a:visited {
 }
 #home button {
     background-color: var(--color-dark);
-    lilne-height: 6rem;
+    line-height: 6rem;
     width: 6rem;
 }
 #home button a {
