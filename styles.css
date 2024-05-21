@@ -67,6 +67,10 @@ a {
     font-family: Raleway, sans-serif;
     font-size: 1rem;
 }
+button {
+    margin-top: 3rem;
+    border: none;
+}
 
 /* Header */
 header {
@@ -117,10 +121,11 @@ header nav a:visited {
     background-size: cover;
     color: white;
     height: 37rem;
+    padding: 10rem;
     text-align: center;
 }
 #home .overlay {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .6);
     display: inline-block;
     margin: auto;
     padding: 4rem 3rem;
@@ -129,4 +134,16 @@ header nav a:visited {
 #home h1 {
     color: black;
     text-align: center;
+}
+#home button {
+    background-color: var(--color-dark);
+    lilne-height: 6rem;
+    width: 6rem;
+}
+#home button a {
+    color: var(--color-light);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: large;
+    font-weight: bold;
 }
