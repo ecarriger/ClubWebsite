@@ -1,7 +1,25 @@
 @font-face {
-    font-family: "Raleway";
-    src: url("./rsc/font/Raleway-VariableFont_wght.ttf");
-  }
+    font-family: "Inter";
+    src: url("./rsc/font/Inter_18pt-Medium.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("./rsc/font/Inter_24pt-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Peddana";
+    src: url("./rsc/font/Peddana-Regular.ttf");
+}
+@font-face {
+    font-family: "InknutAntiqua";
+    src: url("./rsc/font/InknutAntiqua-Regular.ttf");
+}
+@font-face {
+    font-family: "InknutAntiqua";
+    src: url("./rsc/font/InknutAntiqua-Bold.ttf");
+    font-weight: bold;
+}
 
 /*CSS reset*/
 html {
