@@ -12,11 +12,11 @@
     src: url("./rsc/font/Peddana-Regular.ttf");
 }
 @font-face {
-    font-family: "InknutAntiqua";
+    font-family: "Inknut Antiqua";
     src: url("./rsc/font/InknutAntiqua-Regular.ttf");
 }
 @font-face {
-    font-family: "InknutAntiqua";
+    font-family: "Inknut Antiqua";
     src: url("./rsc/font/InknutAntiqua-Bold.ttf");
     font-weight: bold;
 }
@@ -51,21 +51,24 @@ html {
 
 /* Colors */
 body{
-    --color-primary: #000;
-    --color-secondary: #fff;
-    --color-dark: #769656;
-    --color-light: #EEEED2;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-accent: #769656;
+    --color-placeholder: #828282;
     --color-text: #222;
 }
 
 
 h1 {
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
     font-size: 3rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
 h2 {
-    font-size: 2.5rem;
+    font-family: Peddana, serif;
+    font-size: 3rem;
 }
 h3 {
     font-size: 2rem;
@@ -80,45 +83,44 @@ h6 {
     font-size: 1.25rem;
 }
 p {
-    font-family: Raleway, sans-serif;
-    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
 }
 a {
-    font-family: Raleway, sans-serif;
-    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
 }
 button {
-    margin-top: 3rem;
     border: none;
 }
 
 /* Header */
 header {
-    background-color: var(--color-light);
-    border-bottom: 2px solid var(--color-dark);
-    height: 5rem;
+    background-color: var(--color-white);
+}
+header div {
+    width: 1140px;
     display: flex;
-    align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 header img {
-    height: 4rem;
+    height: 88px;
+    width: 88px;
 }
 header nav {
     height: 100%
 }
 header nav ul {
-    height: 100%;
-    background-color: var(--color-dark);
-    padding: 0 5rem;
+    padding: 8px;
     display: flex;
     align-items: stretch;
-    column-gap: 5rem;
-    justify-content: space-around;
+    column-gap: 104px;
+    justify-content: space-between;
 }
 header nav ul li {
-    background-color: var(--color-light);
-    width: 5rem;
+    background-color: var(--color-black);
+    height: 88px;
+    width: 88px;
     display: flex;
     align-items: center;
     justify-content: space-around;
