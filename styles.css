@@ -64,8 +64,6 @@ h1 {
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
     font-size: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
 }
 h2 {
     font-family: Peddana, serif;
@@ -146,59 +144,26 @@ header nav a:active {
 }
 
 /* Home Section */
-/*#home {
-    background-image: url(./rsc/img/chess-knights.jpg);
-    background-position: bottom;
-    background-size: cover;
-    color: white;
-    height: 37rem;
-    padding: 7rem;
-    text-align: center;
-}
-#home .overlay {
-    background-color: rgba(255, 255, 255, .7);
-    display: inline-block;
-    margin: auto;
-    padding: 4rem 3rem;
-    border-radius: 2rem
-} */
 #home {
-    height: 37rem;
-    display: flex;
-    align-items: center;
-}
-#home .hero-img {
-    background-image: url(./rsc/img/chess-knights.jpg);
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    height: 100%;
-    width: 50%;
-}
-#home .hero-text {
-    display: inline-block;
-    padding-top: 5rem;
-    height: 100%;
-    width: 50%;
-    text-align: center;
+    background-color: var(--color-black);
 }
 #home h1 {
-    color: black;
+    color: var(--color-white);
+    line-height: 4rem;
 }
-
-#home button {
-    background-color: var(--color-dark);
-    line-height: 6rem;
-    width: 6rem;
+#hero {
+    background-image: url(./rsc/img/chess-knights_web.jpg);
+    background-position-x: -44px;
+    background-position-y: -72px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 104px 0 152px 0;
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 260px;
 }
-#home button a {
-    color: var(--color-light);
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    font-size: large;
-    font-weight: bold;
-}
-
 @media (500px <= width < 1200px) {
     header div {
         width: 100%;
