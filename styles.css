@@ -143,7 +143,7 @@ header nav a:active {
     color: var(--color-accent);
 }
 
-/* Home Section */
+/*** Home Section ***/
 #home {
     background-color: var(--color-black);
 }
@@ -154,15 +154,37 @@ header nav a:active {
 #hero {
     background-image: url(./rsc/img/chess-knights_web.jpg);
     background-position-x: -44px;
-    background-position-y: -72px;
+    background-position-y: -100px;
     background-repeat: no-repeat;
     margin: auto;
-    padding: 104px 0 152px 0;
     width: 1140px;
+}
+#hero .overlay {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 72px 0 96px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 260px;
+}
+#hero button {
+    background-color: var(--color-accent);
+    height: 80px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#hero button a {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-white);
+    line-height: 80px;
+    width: inherit;
+}
+#hero button a:visited {
+    color: var(--color-white);
 }
 @media (500px <= width < 1200px) {
     header div {
