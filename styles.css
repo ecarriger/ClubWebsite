@@ -83,7 +83,11 @@ h6 {
 }
 p {
     font-family: Inter, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
+}
+li {
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
 }
 a {
     font-family: Inter, sans-serif;
@@ -186,6 +190,31 @@ header nav a:active {
 #hero button a:visited {
     color: var(--color-white);
 }
+
+/*** About, Join ***/
+#about, #join {
+    margin: auto;  
+    padding: 24px 0; 
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+.square {
+    height: 558px;
+    width: 558px;
+}
+.square h2 {
+    line-height: 2.25rem;
+    margin: auto;
+    padding: 24px 16px;
+    text-align: center;
+}
+.square p {
+    line-height: 2rem;
+}
+
 @media (500px <= width < 1200px) {
     header div {
         width: 100%;
