@@ -101,6 +101,8 @@ button {
 header {
     background-color: var(--color-white);
     box-shadow:  1px 2px 5px var(--color-placeholder);
+    position: fixed;
+    width: 100%;
 }
 header div {
     width: 1140px;
@@ -150,6 +152,7 @@ header nav a:active {
 /*** Home Section ***/
 #home {
     background-color: var(--color-black);
+    padding-top: 104px;
 }
 #home h1 {
     color: var(--color-white);
