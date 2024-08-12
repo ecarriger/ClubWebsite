@@ -83,11 +83,14 @@ h6 {
 }
 p {
     font-family: Inter, sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
 }
 li {
     font-family: Inter, sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    list-style: disc;
 }
 a {
     font-family: Inter, sans-serif;
@@ -221,6 +224,23 @@ header nav a:active {
 }
 .square p {
     line-height: 2rem;
+}
+#events {
+
+}
+#events h3 {
+    font-family: Inter, sans;
+    font-size: 1.5rem;
+    margin: 16px;
+    text-align: center;
+}
+#events ul {
+    width: fit-content;
+    margin: auto;
+    padding-left: 24px;
+}
+#events li {
+    
 }
 @media (680px <= width < 1200px) {
     header div {
