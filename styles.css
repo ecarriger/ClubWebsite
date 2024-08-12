@@ -61,11 +61,13 @@ body{
 
 
 h1 {
+    color: var(--color-text);
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
     font-size: 3rem;
 }
 h2 {
+    color: var(--color-text);
     font-family: Peddana, serif;
     font-size: 3rem;
 }
@@ -82,11 +84,13 @@ h6 {
     font-size: 1.25rem;
 }
 p {
+    color: var(--color-text);
     font-family: Inter, sans-serif;
     font-size: 1.25rem;
     line-height: 2.5rem;
 }
 li {
+    color: var(--color-text);
     font-family: Inter, sans-serif;
     font-size: 1.25rem;
     line-height: 2.5rem;
@@ -96,8 +100,14 @@ a {
     font-family: Inter, sans-serif;
     font-size: 1.25rem;
 }
-button {
+button, input[type="button"] {
     border: none;
+}
+label {
+    color: var(--color-text);
+    font-family: Inter, sans-serif;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
 }
 
 /* Header */
@@ -222,14 +232,8 @@ header nav a:active {
     height: 558px;
     width: 558px;
 }
-.square p {
-    line-height: 2rem;
-}
-#events {
-
-}
 #events h3 {
-    font-family: Inter, sans;
+    font-family: Inter, sans-serif;
     font-size: 1.5rem;
     margin: 16px;
     text-align: center;
@@ -239,9 +243,38 @@ header nav a:active {
     margin: auto;
     padding-left: 24px;
 }
-#events li {
-    
+#join input[type="text"], #join input[type="email"], #join textarea {
+    border: 2px solid var(--color-placeholder);
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-family: Inter, sans-serif;
+    margin: 8px 0 16px 0;
+    padding: 8px;
+    width: 100%;
 }
+#join input:focus, #join textarea:focus {
+    outline: 1px solid var(--color-accent);
+}
+#join form {
+    padding: 84px 16px;
+}
+#join input[type="button"] {
+    border: none;
+    background-color: var(--color-accent);
+    border-radius: none;
+    color: var(--color-white);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    margin: auto;
+    height: 80px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*** 680px to 1200px ***/
 @media (680px <= width < 1200px) {
     header div {
         width: 100%;
@@ -254,7 +287,7 @@ header nav a:active {
     }
 }
 
-
+/*** Under 680px ***/
 @media (width < 680px) {
     header div {
         width: 100%;
