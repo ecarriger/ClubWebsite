@@ -156,12 +156,12 @@ header nav a:active {
     line-height: 4rem;
 }
 #hero {
-    background-image: url(./rsc/img/chess-knights_web.jpg);
-    background-position-x: -44px;
+    background-image: url(./rsc/img/chess-knights.jpg);
+    background-position-x: center;
     background-position-y: -100px;
     background-repeat: no-repeat;
     margin: auto;
-    width: 1140px;
+    max-width: 1140px;
 }
 #hero .overlay {
     background-color: rgba(0, 0, 0, .5);
@@ -195,7 +195,7 @@ header nav a:active {
 #about, #join {
     margin: auto;  
     padding: 24px 0; 
-    width: 1140px;
+    max-width: 1140px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -211,13 +211,23 @@ header nav a:active {
     padding: 24px 16px;
     text-align: center;
 }
+.square img {
+    object-fit: cover;
+    height: 558px;
+    width: 558px;
+}
 .square p {
     line-height: 2rem;
 }
-
-@media (500px <= width < 1200px) {
+@media (680px <= width < 1200px) {
     header div {
         width: 100%;
+    }
+    .hero, #about, #join {
+        max-width: 524px;
+    }
+    .swap {
+        order: 4;
     }
 }
 
@@ -239,4 +249,14 @@ header nav a:active {
         height: 80px;
         width: 80px;
     }
+    .hero, #about, #join {
+        max-width: 344px;
+    }
+    .square img {
+        width: 344px;
+        height: 344px;
+    }
+    .swap {
+        order: 4;
+}
 }
