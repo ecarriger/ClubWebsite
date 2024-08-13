@@ -74,6 +74,8 @@ h2 {
 }
 h3 {
     font-size: 2rem;
+    color: var(--color-text);
+    font-family: Inter, sans-serif;
 }
 h4 {
     font-size: 1.75rem;
@@ -375,12 +377,30 @@ footer p, footer a {
     #hero button a {
         font-size: 1rem;
     }
+    main h2 {
+        font-size: 2.5rem;
+        padding: 16px;
+    }
+    #events h3 {
+        font-size: 1.25rem;
+        margin: 8px;
+    }
+    main p {
+        font-size: 1rem;        
+    }
+    main li {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
     #about, #join {
         max-width: 344px;
     }
     .square, .square img {
         width: 344px;
         height: 344px;
+    }
+    .square h2 {
+        padding: 16px;
     }
     .swap {
         order: 4;
