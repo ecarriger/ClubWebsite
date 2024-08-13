@@ -377,16 +377,17 @@ footer p, footer a {
     #hero button a {
         font-size: 1rem;
     }
-    main h2 {
+    .square h2 {
         font-size: 2.5rem;
-        padding: 16px;
+        padding: 16px 0 8px 0;
     }
     #events h3 {
         font-size: 1.25rem;
         margin: 8px;
     }
     .square p {
-        font-size: 1rem;        
+        font-size: 1rem; 
+        line-height: 1.5rem;       
     }
     .square li {
         font-size: 1rem;
@@ -404,12 +405,14 @@ footer p, footer a {
     #about, #join {
         max-width: 344px;
     }
-    .square, .square img {
+    .square {
+        margin: 8px 0;
+        width: 344px;
+        height: initial;
+    }
+    .square img {
         width: 344px;
         height: 344px;
-    }
-    .square h2 {
-        padding: 16px;
     }
     .swap {
         order: 4;
