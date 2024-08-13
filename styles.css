@@ -51,6 +51,7 @@ html {
 
 /* Colors */
 body{
+    font-size: 16px;
     min-width: 360px;
     --color-black: #000;
     --color-white: #fff;
@@ -294,6 +295,24 @@ footer p, footer a {
 @media (width < 1200px) {
     header div {
         width: 100%;
+    }
+    #hero {
+        background-size: auto;
+        background-position-y: -165px;
+        height: 500px;
+    }
+    #hero .overlay {
+        padding: 48px 0 64px 0;
+        row-gap: 200px;
+        height: 100%;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    #hero button {
+        height: 64px;
+        width: 96px;
+        font-size: 18px;
     }
     #about, #join {
         max-width: 524px;
