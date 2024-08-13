@@ -256,7 +256,7 @@ header nav a:active {
     outline: 1px solid var(--color-accent);
 }
 #join form {
-    padding: 84px 16px;
+    padding: 16px;
 }
 #join input[type="button"] {
     border: none;
@@ -275,15 +275,22 @@ header nav a:active {
 }
 
 /*** 680px to 1200px ***/
-@media (680px <= width < 1200px) {
+@media (width < 1200px) {
     header div {
         width: 100%;
     }
     .hero, #about, #join {
         max-width: 524px;
     }
+    .square, .square img {
+        width: 524px;
+        height: 524px;
+    }
     .swap {
         order: 4;
+    }
+    #join form {
+        padding: 0 16px;
     }
 }
 
@@ -308,7 +315,7 @@ header nav a:active {
     .hero, #about, #join {
         max-width: 344px;
     }
-    .square img {
+    .square, .square img {
         width: 344px;
         height: 344px;
     }
