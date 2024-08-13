@@ -313,7 +313,9 @@ footer p, footer a {
     #hero button {
         height: 64px;
         width: 96px;
-        font-size: 18px;
+    }
+    #hero button a {
+        font-size: 1.125rem;
     }
     #about, #join {
         max-width: 524px;
@@ -348,7 +350,29 @@ footer p, footer a {
         height: 80px;
         width: 80px;
     }
-    .hero, #about, #join {
+    #hero {
+        background-size: cover;
+        background-position: center;
+        height: initial;
+    }
+    #hero .overlay {
+        padding: 24px 0 44px 0;
+        row-gap: 100px;
+        height: 100%;
+    }
+    #hero h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        max-width: 300px;
+    }
+    #hero button {
+        height: 48px;
+        width: 80px;
+    }
+    #hero button a {
+        font-size: 1rem;
+    }
+    #about, #join {
         max-width: 344px;
     }
     .square, .square img {
