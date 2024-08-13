@@ -385,12 +385,21 @@ footer p, footer a {
         font-size: 1.25rem;
         margin: 8px;
     }
-    main p {
+    .square p {
         font-size: 1rem;        
     }
-    main li {
+    .square li {
         font-size: 1rem;
         line-height: 1.75rem;
+    }
+    #join label, #join input[type="text"], #join input[type="email"], #join textarea {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    #join input[type="button"] {
+        font-size: 1rem;
+        height: 48px;
+        width: 80px;
     }
     #about, #join {
         max-width: 344px;
