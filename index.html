@@ -68,7 +68,7 @@
                     <input id="email" type="email" name="email" placeholder="e.g. john.smith@gmail.com" required />
                     <label for="message">Message (optional)</label>
                     <textarea id="message" name="message" placeholder="e.g. Chess rating is 1600"></textarea>
-                    <input type="button" value="Submit" />
+                    <input id="joinForm" type="button" value="Submit" />
                 </form>
             </div>
         </section>
@@ -79,5 +79,12 @@
         <p><a href="https://www.flaticon.com/free-icons/chess" title="chess icons">Chess icons created by SBTS2018 - Flaticon</a></p>
         <p>Photos by <a href="https://unsplash.com/@foulsterr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Frankie Cordoba</a> and <a href="https://unsplash.com/@qzinnn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikita Kuzin</a> on Unsplash</p>
     </footer>
+    <script>
+        console.log("My log");
+        const joinForm = document.getElementById("joinForm");
+        joinForm.addEventListener("click", (e) => {
+            alert("Thank you for your submission");
+        });
+    </script>
 </body>
 </html>
