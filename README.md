@@ -1,5 +1,5 @@
 # Mighty Knights' Chess Club
-This website is a portfolio project I designed and developed to demonstrate what I was learning about web developmenet and responsive design. I created a high fidelity design and  spec sheet using Figma, then coded the site using HTML and CSS.
+This website is a portfolio project I designed and developed to demonstrate what I was learning about web development and responsive design. I created a high fidelity design and  spec sheet using Figma, then coded the site using HTML and CSS.
 
 ## Technology and Tools
 * HTML
